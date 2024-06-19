@@ -55,7 +55,7 @@ export async function getInpc(dateAdq, dateDisp) {
     }
     
     //REQUEST INPC'S
-    let url = `${process.env.ENDPOINT ||'http://localhost:3000/getInpc'}`;
+    let url = `${process.env.ENDPOINT}`;
     let init = {
         method: 'POST',
         body: JSON.stringify({data}),
