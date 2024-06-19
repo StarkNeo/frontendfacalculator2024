@@ -1,0 +1,11 @@
+.summary{
+    margin: auto;
+    width: 100%;
+}
+.numeric{
+    background-color: transparent;
+    width: fit-content;
+    text-align: center;
+    color: white;
+
+}
