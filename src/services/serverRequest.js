@@ -56,7 +56,7 @@ export async function getInpc(dateAdq, dateDisp) {
     }
     
     //REQUEST INPC'S
-    let url = `${process.env.REACT_APP_ENDPOINT}/inpc`;
+    let url = `${process.env.REACT_APP_ENDPOINT}/getInpc`;
     let init = {
         method: 'POST',
         body: JSON.stringify({data}),
