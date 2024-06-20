@@ -13,7 +13,6 @@ export const FaCalculator = (props) => {
     const [salePrice, setSalePrice] = useState(0);
     const [result, setResult] = useState([{id:0, ejercicio: 0, mes:0, indice:1},{id:0, ejercicio: 0, mes:0, indice:1}]);
     
-   
   
 
     const handleDate = (e) => {
