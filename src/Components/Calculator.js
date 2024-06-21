@@ -23,7 +23,7 @@ export const FaCalculator = (props) => {
     const handleSubmit = async (e) => {
         e.preventDefault()
         let resultado = await getInpc(dateAdq, dateDisp);
-        if (resultado !== 1) {
+        if (resultado !== 1 && resultado.length > 1) {
             setResult(resultado);
         };
         
